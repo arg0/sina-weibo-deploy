@@ -35,3 +35,45 @@
 2003 DEBUG [2013-03-31 21:26:04]  Via:1.1 varnish
 2008 DEBUG [2013-03-31 21:26:04]  {"access_token":"2.00fXNMxBW2d72D9ad69f14adBQcGnC","remind_in":"157679999","expires_in":157679999,"uid":"1790848651"}
 
+0    INFO  [2013-03-31 22:00:26]  code: c2a2c782f0fa45d8259cea21b7e07185
+4    DEBUG [2013-03-31 22:00:26]  Request:
+4    DEBUG [2013-03-31 22:00:26]  POSThttps://api.weibo.com/oauth2/access_token
+1214 DEBUG [2013-03-31 22:00:28]  Response:
+1215 DEBUG [2013-03-31 22:00:28]  https StatusCode:200
+1215 DEBUG [2013-03-31 22:00:28]  Server:nginx/1.2.0
+1215 DEBUG [2013-03-31 22:00:28]  Date:Sun, 31 Mar 2013 14:00:28 GMT
+1215 DEBUG [2013-03-31 22:00:28]  Content-Type:text/plain;charset=UTF-8
+1215 DEBUG [2013-03-31 22:00:28]  Content-Length:117
+1215 DEBUG [2013-03-31 22:00:28]  Connection:keep-alive
+1215 DEBUG [2013-03-31 22:00:28]  Pragma:No-cache
+1215 DEBUG [2013-03-31 22:00:28]  Cache-Control:no-cache
+1215 DEBUG [2013-03-31 22:00:28]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+1215 DEBUG [2013-03-31 22:00:28]  Api-Server-IP:10.73.89.47
+1216 DEBUG [2013-03-31 22:00:28]  X-Varnish:2119639714
+1216 DEBUG [2013-03-31 22:00:28]  Age:0
+1216 DEBUG [2013-03-31 22:00:28]  Via:1.1 varnish
+1219 DEBUG [2013-03-31 22:00:28]  {"access_token":"2.00fXNMxBW2d72D9ad69f14adBQcGnC","remind_in":"157679999","expires_in":157679999,"uid":"1790848651"}
+
+0    DEBUG [2013-03-31 22:02:48]  Request:
+0    DEBUG [2013-03-31 22:02:48]  POSThttps://api.weibo.com/2/statuses/update.json
+0    DEBUG [2013-03-31 22:03:21]  Request:
+1    DEBUG [2013-03-31 22:03:21]  POSThttps://api.weibo.com/2/statuses/update.json
+0    DEBUG [2013-03-31 22:05:25]  Request:
+0    DEBUG [2013-03-31 22:05:25]  POSThttps://api.weibo.com/2/statuses/update.json
+32   DEBUG [2013-03-31 22:05:25]  Authorization: OAuth2 2.00fXNMxBW2d72D9ad69f14adBQcGnC
+32   DEBUG [2013-03-31 22:05:25]  API-RemoteIP: 192.168.1.14
+1102 DEBUG [2013-03-31 22:05:26]  Response:
+1102 DEBUG [2013-03-31 22:05:26]  https StatusCode:200
+1102 DEBUG [2013-03-31 22:05:26]  Server:nginx/1.2.0
+1102 DEBUG [2013-03-31 22:05:26]  Date:Sun, 31 Mar 2013 14:05:27 GMT
+1102 DEBUG [2013-03-31 22:05:26]  Content-Type:application/json;charset=UTF-8
+1103 DEBUG [2013-03-31 22:05:26]  Content-Length:1289
+1103 DEBUG [2013-03-31 22:05:26]  Connection:keep-alive
+1103 DEBUG [2013-03-31 22:05:26]  Api-Server-IP:10.77.108.36
+1103 DEBUG [2013-03-31 22:05:26]  Vary:Accept-Encoding
+1103 DEBUG [2013-03-31 22:05:26]  X-Varnish:2569153663
+1103 DEBUG [2013-03-31 22:05:26]  Age:0
+1103 DEBUG [2013-03-31 22:05:26]  Via:1.1 varnish
+1106 DEBUG [2013-03-31 22:05:26]  {"created_at":"Sun Mar 31 22:05:25 +0800 2013","id":3562034752672381,"mid":"3562034752672381","idstr":"3562034752672381","text":"O(∩_∩)O哈哈哈~","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"user":{"id":1790848651,"idstr":"1790848651","screen_name":"-笑得海潮","name":"-笑得海潮","province":"37","city":"1","location":"山东 济南","description":"山大","url":"http://www.definite.name","profile_image_url":"http://tp4.sinaimg.cn/1790848651/50/1281358986/1","profile_url":"imvc","domain":"imvc","weihao":"","gender":"m","followers_count":148,"friends_count":433,"statuses_count":1084,"favourites_count":155,"created_at":"Mon Aug 09 20:33:30 +0800 2010","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/1790848651/180/1281358986/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":95,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+1121 INFO  [2013-03-31 22:05:26]  Status [user=User [id=1790848651, screenName=-笑得海潮, name=-笑得海潮, province=37, city=1, location=山东 济南, description=山大, url=http://www.definite.name, profileImageUrl=http://tp4.sinaimg.cn/1790848651/50/1281358986/1, userDomain=imvc, gender=m, followersCount=148, friendsCount=433, statusesCount=1084, favouritesCount=155, createdAt=Mon Aug 09 20:33:30 CST 2010, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp4.sinaimg.cn/1790848651/180/1281358986/1, onlineStatus=0, status=null, biFollowersCount=95, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3562034752672381, createdAt=Sun Mar 31 22:05:25 CST 2013, id=3562034752672381, text=O(∩_∩)O哈哈哈~, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3562034752672381, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
