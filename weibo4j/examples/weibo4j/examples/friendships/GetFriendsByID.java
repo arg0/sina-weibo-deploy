@@ -8,8 +8,11 @@ import weibo4j.model.WeiboException;
 public class GetFriendsByID {
 
 	public static void main(String[] args) {
-		String access_token = args[0];
-		String id = args[1];
+//		String access_token = args[0];
+		String access_token = "2.00fXNMxBW2d72D9ad69f14adBQcGnC";
+		String id = "2609855497";
+//		String id = args[1];
+
 		Friendships fm = new Friendships();
 		fm.client.setToken(access_token);
 		try {
