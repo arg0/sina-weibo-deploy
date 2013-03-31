@@ -1,0 +1,37 @@
+0    INFO  [2013-03-31 21:21:54]  code: 
+5    DEBUG [2013-03-31 21:21:54]  Request:
+5    DEBUG [2013-03-31 21:21:54]  POSThttps://api.weibo.com/oauth2/access_token
+958  DEBUG [2013-03-31 21:21:55]  Response:
+958  DEBUG [2013-03-31 21:21:55]  https StatusCode:400
+958  DEBUG [2013-03-31 21:21:55]  Server:nginx/1.2.0
+958  DEBUG [2013-03-31 21:21:55]  Date:Sun, 31 Mar 2013 13:21:55 GMT
+958  DEBUG [2013-03-31 21:21:55]  Content-Length:120
+958  DEBUG [2013-03-31 21:21:55]  Connection:keep-alive
+958  DEBUG [2013-03-31 21:21:55]  Pragma:No-cache
+959  DEBUG [2013-03-31 21:21:55]  Cache-Control:no-cache
+959  DEBUG [2013-03-31 21:21:55]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+959  DEBUG [2013-03-31 21:21:55]  Api-Server-IP:10.73.89.48
+959  DEBUG [2013-03-31 21:21:55]  X-Varnish:2113321391
+959  DEBUG [2013-03-31 21:21:55]  Age:0
+959  DEBUG [2013-03-31 21:21:55]  Via:1.1 varnish
+965  DEBUG [2013-03-31 21:21:55]  {"error":"redirect_uri_mismatch","error_code":21322,"request":"/oauth2/access_token","error_uri":"/oauth2/access_token"}
+
+0    INFO  [2013-03-31 21:26:02]  code: fcb57029c46f364704ab50c73ff3e0e2
+8    DEBUG [2013-03-31 21:26:02]  Request:
+8    DEBUG [2013-03-31 21:26:02]  POSThttps://api.weibo.com/oauth2/access_token
+2002 DEBUG [2013-03-31 21:26:04]  Response:
+2002 DEBUG [2013-03-31 21:26:04]  https StatusCode:200
+2002 DEBUG [2013-03-31 21:26:04]  Server:nginx/1.2.0
+2002 DEBUG [2013-03-31 21:26:04]  Date:Sun, 31 Mar 2013 13:26:05 GMT
+2002 DEBUG [2013-03-31 21:26:04]  Content-Type:text/plain;charset=UTF-8
+2002 DEBUG [2013-03-31 21:26:04]  Content-Length:117
+2002 DEBUG [2013-03-31 21:26:04]  Connection:keep-alive
+2002 DEBUG [2013-03-31 21:26:04]  Pragma:No-cache
+2003 DEBUG [2013-03-31 21:26:04]  Cache-Control:no-cache
+2003 DEBUG [2013-03-31 21:26:04]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+2003 DEBUG [2013-03-31 21:26:04]  Api-Server-IP:10.73.89.46
+2003 DEBUG [2013-03-31 21:26:04]  X-Varnish:2759383062
+2003 DEBUG [2013-03-31 21:26:04]  Age:0
+2003 DEBUG [2013-03-31 21:26:04]  Via:1.1 varnish
+2008 DEBUG [2013-03-31 21:26:04]  {"access_token":"2.00fXNMxBW2d72D9ad69f14adBQcGnC","remind_in":"157679999","expires_in":157679999,"uid":"1790848651"}
+
